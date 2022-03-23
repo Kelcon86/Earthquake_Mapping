@@ -2,19 +2,22 @@
 console.log("working");
 
 // Create the map object with center at the San Francisco airport.
-let map = L.map('mapid').setView([37.6213, -122.3790], 5);
+let map = L.map('mapid').setView([30.2666, -97.7333], 5);
 
 // Coordinates for each point to be used in the polyline
 let line = [
-    [33.9416, -118.4085],
     [37.6213, -122.3790],
-    [40.7899, -111.9791],
-    [47.4502, -122.3088]
+    [30.2666, -97.7333],
+    [43.6777, -79.6248],
+    [40.6413, -73.7781]
 ];
 
 // Create a polyline using the line coordinates and make the line red.
 L.polyline(line, {
-    color: "yellow"
+    dashArray: 5,
+    weight: 4,
+    opacity: 0.5,
+    color: "blue"
 }).addTo(map);
 
 // We create the tile layer that will be the background of our map.
