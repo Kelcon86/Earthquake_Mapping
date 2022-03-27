@@ -1,6 +1,6 @@
 # Mapping_Earthquakes
 
-Using Leaflet I created a map with three different styles (Streets, Satellite and Dark) and an overlay showing all of the earthquakes in the past 7 days, the major earthquakes with a magnitude over 4.5 and the tectonic plates. 
+Using Leaflet and JavaScript I created a map with three different styles (Streets, Satellite and Dark) and an overlay showing all of the earthquakes in the past 7 days, the major earthquakes with a magnitude over 4.5 and the tectonic plates. 
 
 ### Streets map style with earthquake and tectonic plate overlay
 
